@@ -83,6 +83,22 @@ limitations under the License.
 <!-- PASTE FIREBASE INITIALIZATION CODE HERE -->
 <!-- END INITIALIZATION CODE -->
 <!-- ******************************************************** -->
+  
+
+<script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDq_TVW9wJjl7TxdlfBCgwS9VWGHm_GMQg",
+    authDomain: "quickstart-web-messaging.firebaseapp.com",
+    databaseURL: "https://quickstart-web-messaging.firebaseio.com",
+    storageBucket: "quickstart-web-messaging.appspot.com",
+    messagingSenderId: "200991514370"
+  };
+  firebase.initializeApp(config);
+</script>
+  
+  
 <script>
   // [START get_messaging_object]
   // Retrieve Firebase Messaging object.
